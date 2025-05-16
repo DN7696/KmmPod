@@ -1,12 +1,20 @@
 import SwiftUI
+import UIKit
 import composeApp
 
 struct ContentView: View {
-	let greet = Greeting().greet()
+    var body: some View {
+        ComposeView()
+            .ignoresSafeArea(.all)
+    }
+}
 
-	var body: some View {
-		Text(greet)
-	}
+struct ComposeView: UIViewControllerRepresentable {
+    func makeUIViewController(context: Context) -> UIViewController {
+        return IosEntrypointKt.createComposeViewController()
+    }
+
+    func updateUIViewController(_ uiViewController: UIViewController, context: Context) {}
 }
 
 struct ContentView_Previews: PreviewProvider {

@@ -4,6 +4,8 @@ plugins {
     alias(libs.plugins.kotlinMultiplatform)
     alias(libs.plugins.kotlinCocoapods)
     alias(libs.plugins.androidLibrary)
+    alias(libs.plugins.jetbrainsCompose)
+    alias(libs.plugins.compose.compiler)
 }
 
 kotlin {
@@ -26,14 +28,27 @@ kotlin {
         version = "1.0"
         ios.deploymentTarget = "16.0"
         podfile = project.file("../iosApp/Podfile")
+
         framework {
             baseName = "composeApp"
             isStatic = true
+            export(libs.compose.runtime)
+            export(libs.compose.foundation)
+            export(libs.compose.material3)
+            export(libs.compose.components.resources)
         }
+        extraSpecAttributes["frameworks"] = "'UIKit'"
     }
     
     sourceSets {
         commonMain.dependencies {
+            implementation(libs.compose.runtime)
+            implementation(libs.compose.foundation)
+            implementation(libs.compose.material3)
+            implementation(libs.compose.ui)
+            implementation(libs.compose.components.resources)
+//            implementation(libs.compose.components.uiTooling)
+//            implementation(libs.compose.components.uiToolingPreview)
             //put your multiplatform dependencies here
         }
         commonTest.dependencies {
