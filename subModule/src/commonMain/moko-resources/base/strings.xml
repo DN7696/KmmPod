@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <!-- Common -->
+    <string name="app_name">My App</string>
+    <string name="welcome_message">Welcome to the app!</string>
+    <string name="empty_default_string" />
+    <string name="current_language">en</string>
+    <!--    Error -->
+    <string name="error_common">Unknown error occurred. Please try again later.</string>
+    <string name="error_network">Network error. Please check your connection.</string>
+    <string name="error_server">Server error. Please try again later.</string>
+    <string name="error_auth">Authentication error. Please login again.</string>
+    <string name="error_timeout">Connection timed out. Please try again.</string>
+    <string name="error_input">Input data is invalid.</string>
+    <string name="error_no_data">No data found.</string>
+    <string name="error_permission">Access denied. Please grant permission.</string>
+    <string name="error_retry">Please try again.</string>
+    <string name="error_offline">You are offline.</string>
+    <string name="error_validation">Invalid data.</string>
+    <string name="error_parse">Unable to process data.</string>
+    <string name="error_unknown_host">Cannot connect to server.</string>
+    <string name="error_ssl">Security connection error.</string>
+    <string name="error_rate_limit">Too many requests. Please try again later.</string>
+
+    <!--    Loading-->
+    <string name="loading_common">Loading data...</string>
+    <string name="loading_please_wait">Please wait a moment...</string>
+    <string name="loading_processing">Processing...</string>
+    <string name="loading_initializing">Initializing...</string>
+    <string name="loading_syncing">Syncing data...</string>
+    <string name="loading_updating">Updating...</string>
+    <string name="loading_authenticating">Authenticating...</string>
+    <string name="loading_searching">Searching...</string>
+    <string name="loading_connecting">Connecting...</string>
+
+    <!-- Auth -->
+    <string name="login_button">Login</string>
+    <string name="signup_button">Sign Up</string>
+    <string name="email_hint">Enter your email</string>
+    <string name="password_hint">Enter your password</string>
+    <string name="login_title">Welcome Back</string>
+    <string name="login_subtitle">Sign in to continue</string>
+    <string name="login_email_hint">Email</string>
+    <string name="login_password_hint">Password</string>
+    <string name="login_button">Sign In</string>
+    <string name="login_or">OR</string>
+    <string name="login_no_account">Don't have an account?</string>
+    <string name="login_register">Register</string>
+    <string name="login_welcome">Welcome</string>
+    <string name="login_sign_out">Sign Out</string>
+    <string name="google_sign_in_button">Sign in with Google</string>
+
+    <!-- Register Screen -->
+    <string name="register_title">Create Account</string>
+    <string name="register_subtitle">Sign up to get started</string>
+    <string name="register_name_hint">Full Name</string>
+    <string name="register_email_hint">Email</string>
+    <string name="register_password_hint">Password</string>
+    <string name="register_confirm_password_hint">Confirm Password</string>
+    <string name="register_button">Register</string>
+    <string name="register_have_account">Already have an account?</string>
+    <string name="register_login">Login</string>
+
+    <!-- Permission Screen -->
+    <string name="permission_title">We Need Your Permission</string>
+    <string name="permission_description">To provide you with the best experience, we need your permission for the following features:</string>
+    <string name="permission_location_title">Location</string>
+    <string name="permission_location_description">To recommend meals based on your location and weather</string>
+    <string name="permission_notification_title">Notifications</string>
+    <string name="permission_notification_description">To remind you about meal times and suggestions</string>
+    <string name="permission_allow_button">Allow Permissions</string>
+    <string name="permission_skip_button">Skip for Now</string>
+
+    <!-- Permission Dialog -->
+    <string name="permission_dialog_title">Permission Required</string>
+    <string name="permission_dialog_text">Some permissions are required for better experience. Would you like to grant them?</string>
+    <string name="permission_dialog_confirm">OK</string>
+    <string name="permission_dialog_cancel">Cancel</string>
+
+    <!-- Error Messages -->
+    <string name="error_invalid_email">Invalid email format</string>
+    <string name="error_invalid_password">Password must be at least 6 characters</string>
+
+    <!-- With Parameters -->
+    <string name="hello_user">Hello, %s!</string>
+    <string name="items_count">You have %d items</string>
+
+    <!-- Main -->
+    <string name="home_tab_title">Home</string>
+    <string name="setting_tab_title">Setting</string>
+
+    <!-- Onboarding Screen -->
+    <string name="onboarding_continue_button">Continue</string>
+
+    <!-- Metrics -->
+    <string name="metric_explain">Providing personal information helps us make more accurate food recommendations.
+        This information will not be used for any other purposes. If you feel at risk, please skip it.</string>
+    <string name="metric_warning">Skipping settings will prevent us from providing accurate food recommendations based on your needs. Are you sure you want to skip?</string>
+
+    <string name="clear_metric_text">Clear selection</string>
+    <string name="clear_metric_confirmation">Do you want to remove this setting?</string>
+
+    <string name="age_metric_title">Age</string>
+    <string name="gender_metric_title">Gender</string>
+    <string name="location_metric_title">Location</string>
+    <string name="health_metric_title">Health</string>
+    <string name="weather_metric_title">Weather</string>
+    <string name="eating_history_metric_title">Eating History</string>
+    <string name="hobbies_history_metric_title">Personal Interests</string>
+
+    <string name="age_metric_des">Which age group do you belong to?</string>
+    <string name="gender_metric_des">What is your gender?</string>
+    <string name="location_metric_des">Allow us to access your location for more accurate recommendations</string>
+    <string name="location_metric_des1">Or you can enter a relative location here</string>
+    <string name="health_metric_des">Do you have any health conditions?</string>
+    <string name="health_metric_des1">Other health conditions</string>
+    <string name="hobbies_history_metric_des">What are your personal interests?</string>
+    <string name="hobbies_history_metric_des1">Other personal interests</string>
+
+    <string name="metric_gender_male">Male</string>
+    <string name="metric_gender_female">Female</string>
+    <string name="metric_gender_other">Other</string>
+
+    <string name="metric_age_child">5-12 years</string>
+    <string name="metric_age_teenager">13-19 years</string>
+    <string name="metric_young_adult">20-35 years</string>
+    <string name="metric_age_adult">36-50 years</string>
+    <string name="metric_age_middle">51-65 years</string>
+    <string name="metric_age_senior">65+ years</string>
+
+    <string name="metric_health_add_condition">Add your health condition</string>
+    <string name="metric_health_obesity">Obesity</string>
+    <string name="metric_health_heart_disease">Heart Disease</string>
+    <string name="metric_health_high_blood">High Blood Pressure</string>
+    <string name="metric_health_high_diabetes">Diabetes</string>
+    <string name="metric_health_hyperlipidemia">Hyperlipidemia</string>
+
+    <string name="metric_hobby_sports">Sports</string>
+    <string name="metric_hobby_reading">Reading</string>
+    <string name="metric_hobby_gaming">Gaming</string>
+    <string name="metric_hobby_cooking">Cooking</string>
+    <string name="metric_hobby_traveling">Traveling</string>
+    <string name="metric_hobby_gym">Gym</string>
+    <string name="metric_hobby_yoga">Yoga</string>
+    <string name="metric_hobby_hiking">Hiking</string>
+    <string name="metric_hobby_swimming">Swimming</string>
+    <string name="metric_hobby_cycling">Cycling</string>
+    <string name="metric_hobby_running">Running</string>
+    <string name="metric_hobby_meditation">Meditation</string>
+    <string name="metric_hobby_gardening">Gardening</string>
+    <string name="metric_hobby_photography">Photography</string>
+    <string name="metric_hobby_dancing">Dancing</string>
+    <string name="metric_hobby_music">Music</string>
+    <string name="metric_hobby_food_exploring">Food Exploring</string>
+    <string name="metric_hobby_camping">Camping</string>
+    <string name="metric_hobby_martial_arts">Martial Arts</string>
+
+    <string name="hobbies_activity">Activities</string>
+    <string name="hobbies_taste">Tastes</string>
+    <string name="taste_sweet">Sweet</string>
+    <string name="taste_salty">Salty</string>
+    <string name="taste_spicy">Spicy</string>
+    <string name="taste_sour">Sour</string>
+    <string name="taste_bitter">Bitter</string>
+    <string name="taste_bland">Bland</string>
+
+    <string name="season_spring">Spring</string>
+    <string name="season_summer">Summer</string>
+    <string name="season_autumn">Autumn</string>
+    <string name="season_winter">Winter</string>
+    <string name="season_rainy">Rainy Season</string>
+    <string name="season_dry">Dry Season</string>
+
+    <string name="weather_sunny">Sunny</string>
+    <string name="weather_partly_cloudy">Partly Cloudy</string>
+    <string name="weather_cloudy">Cloudy</string>
+    <string name="weather_rainy">Rainy</string>
+    <string name="weather_stormy">Stormy</string>
+    <string name="weather_snowy">Snowy</string>
+    <string name="weather_foggy">Foggy</string>
+    <string name="weather_windy">Windy</string>
+
+    <string name="meal_breakfast">Breakfast</string>
+    <string name="meal_lunch">Lunch</string>
+    <string name="meal_dinner">Dinner</string>
+    <string name="meal_snack">Snack</string>
+
+    <!-- Location -->
+    <string name="search_countries">Search countries...</string>
+    <string name="select_country_title">Select Your Country</string>
+    <string name="location_description">Your location helps us suggest more accurate dishes based on local cuisine and availability. We only use this information for food recommendations and nothing else.</string>
+    <string name="location_input_hint">Enter your approximate location</string>
+    <string name="location_manual_description">Don\'t want to share exact location? You can type your area instead</string>
+    <string name="location_permission_title">Share Location</string>
+    <string name="current_location_title">Current Location</string>
+    <string name="empty_location_title">No location</string>
+
+    <!-- Location Guide -->
+    <string name="location_guide_title">To enable location services, please follow these steps:</string>
+    <string name="location_guide_step_1">1. Open Settings (by pressing the button above)</string>
+    <string name="location_guide_step_2">2. Scroll down and tap on \'Privacy &amp; Security\'</string>
+    <string name="location_guide_step_3">3. Tap on \'Location Services\'</string>
+    <string name="location_guide_step_4">4. Find \'MealIdeal\' in the list</string>
+    <string name="location_guide_step_5">5. Select \'While Using the App\' or \'Always\'</string>
+
+    <!-- Prompt -->
+    <string name="prompt_age">Age: %s (Age affects preferences, for example children like snacks, young people like nutritious food, old horses need healthy food).</string>
+    <string name="prompt_eating_history">Recent meals: %s.</string>
+    <string name="prompt_gender">Gender: %s (Women tend to snack more than men).</string>
+    <string name="prompt_health">Health conditions: %s.</string>
+    <string name="prompt_hobbies">Hobbies: %s, Tastes: %s.</string>
+    <string name="prompt_location">Nationality: %s, Region: %s (If the user's region is different from where they were born, 2 items can be suggested: 1 item will still be suitable according to the nationality criteria, 1 item will be according to the current location where they live, If nationality and living area are the same, suggest only 1 dish.).</string>
+    <string name="prompt_weather">Current season: %s, Weather: %s, Temperature: %s°C, Current time is: %s.</string>
+    <string name="final_structured_prompt">
+        Based on the following user information: %s
+
+        Please suggest a suitable dish.
+
+        IMPORTANT: Return the result in EXACTLY the following JSON format:
+        {
+        "name": "Dish name",
+        "type": "BREAKFAST|LUNCH|DINNER|SNACK",
+        "imageUrl": "Image URL (leave blank if not available)",
+        "description": "Short description of the dish",
+        "matchReason": "Reason why this dish is suitable (No need to give reasons about their geography or location but use this information to suggest dishes.)"
+        }
+
+        ONLY RETURN JSON, no extra text. Return result in English.
+    </string>
+</resources>

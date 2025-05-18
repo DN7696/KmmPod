@@ -6,6 +6,7 @@ plugins {
     alias(libs.plugins.androidLibrary)
     alias(libs.plugins.jetbrainsCompose)
     alias(libs.plugins.compose.compiler)
+    alias(libs.plugins.moko)
 }
 
 kotlin {
@@ -32,27 +33,26 @@ kotlin {
         framework {
             baseName = "composeApp"
             isStatic = true
-            export(libs.compose.runtime)
-            export(libs.compose.foundation)
-            export(libs.compose.material3)
-            export(libs.compose.components.resources)
         }
-        extraSpecAttributes["frameworks"] = "'UIKit'"
     }
     
     sourceSets {
         commonMain.dependencies {
+            api(projects.subModule)
+
             implementation(libs.compose.runtime)
             implementation(libs.compose.foundation)
             implementation(libs.compose.material3)
-            implementation(libs.compose.ui)
-            implementation(libs.compose.components.resources)
-//            implementation(libs.compose.components.uiTooling)
-//            implementation(libs.compose.components.uiToolingPreview)
-            //put your multiplatform dependencies here
         }
         commonTest.dependencies {
             implementation(libs.kotlin.test)
+        }
+        iosMain.dependencies {
+//            api(libs.moko.resources)
+//            api(libs.moko.resources.compose)
+//            api(compose.runtime)
+//            api(compose.foundation)
+//            api(compose.material3)
         }
     }
 }

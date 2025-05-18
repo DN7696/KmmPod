@@ -17,3 +17,4 @@ dependencyResolutionManagement {
 rootProject.name = "KmmPod"
 include(":androidApp")
 include(":composeApp")
+include(":subModule")
